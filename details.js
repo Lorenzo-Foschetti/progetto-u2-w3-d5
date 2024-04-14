@@ -30,7 +30,7 @@ window.addEventListener("DOMContentLoaded", () => {
     <div> 
     <h3>${products.name}</h3> 
     <p>${products.description}</p>
-    <p>€${products.price}</p> 
+    <span class="badge text-bg-success"> €${products.price} </span>
     <a href="./details.html?appId=${products._id}"</a>
  
   

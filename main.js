@@ -32,8 +32,8 @@ window.addEventListener("DOMContentLoaded", () => {
                 <img src=${product.imageUrl} class="card-img-top" alt="...">
                 <div class="card-body position-relative border border-2 border-black cardHeight">
                     <p class="card-text">${product.name}</p>
-                    <p class="card-text">${product.price}   </p>
-                    <a href="./details.html?appId=${product._id}">VISUALIZZA DETTAGLI</a>
+                    <span class="badge text-bg-success "> ${product.price}€ </span>
+                    <a class="ancorStyle " href="./details.html?appId=${product._id}">VISUALIZZA DETTAGLI</a>
                 </div>`;
 
         col.appendChild(card);
