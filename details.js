@@ -26,7 +26,7 @@ window.addEventListener("DOMContentLoaded", () => {
       const div = document.createElement("div");
 
       div.innerHTML = `  
-    <img src=${products.imageUrl} alt="...">
+    <img src=${products.imageUrl}  style: height = "200px" alt="...">
     <div> 
     <h3>${products.name}</h3> 
     <p>${products.description}</p>
